@@ -22,6 +22,7 @@ class Graph:
     if not self.directed:
       self.graph_dict[to_vertex.value].add_edge(from_vertex.value, weight)
 
+  # Finding the path using breadth first search O(n) time complexity 
   def find_path(self, start_vertex, end_vertex):
     start = [start_vertex]
     seen = {}
