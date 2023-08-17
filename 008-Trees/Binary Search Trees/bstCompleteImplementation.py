@@ -2,7 +2,7 @@ import queue
 
 class BST:
     class Node:
-        def __init__(self, data = None, left = None, right = None):
+        def __init__(self, data=None, left=None, right=None):
             self.data = data
             self.left = left
             self.right = right
@@ -96,7 +96,7 @@ class BST:
                 stack.append(curr)
                 curr = curr.left
             curr = stack.pop()
-            print(curr.data, end = " ")
+            print(curr.data, end=" ")
             curr = curr.right
 
     def iterative_pre_order_print(self):
@@ -104,7 +104,7 @@ class BST:
         while stack:
             curr = stack.pop()
             if curr:
-                print(curr.data, end = " ")
+                print(curr.data, end=" ")
                 stack.append(curr.right)
                 stack.append(curr.left)
 
@@ -118,7 +118,7 @@ class BST:
                 stack1.append(curr.left)
                 stack1.append(curr.right)
         while stack2:
-            print(stack2.pop().data, end = " ")
+            print(stack2.pop().data, end=" ")
 
     def print(self):
         print("In order")
@@ -138,6 +138,9 @@ class BST:
         print()
 
     def breadthfirst_print(self):
+        if self.root is None:
+            print([])
+            return
         nodes_to_visit = queue.Queue()
         nodes_to_visit.put(self.root)
         while not nodes_to_visit.empty():
@@ -148,25 +151,71 @@ class BST:
                 nodes_to_visit.put(curr_node.right)
             print(curr_node.data, end=" ")
 
+    def delete(self, data):
+        curr = self.root
+        parent = None
+        while curr is not None:
+            if data < curr.data:
+                parent = curr
+                curr = curr.left
+            elif data > curr.data:
+                parent = curr
+                curr = curr.right
+            else:
+                if curr.left is None:
+                    if parent is None:
+                        self.root = curr.right
+                    elif parent.left == curr:
+                        parent.left = curr.right
+                    else:
+                        parent.right = curr.right
+                elif curr.right is None:
+                    if parent is None:
+                        self.root = curr.left
+                    elif parent.left == curr:
+                        parent.left = curr.left
+                    else:
+                        parent.right = curr.left
+                else:
+                    successor_parent = curr
+                    successor = curr.right
+                    while successor.left is not None:
+                        successor_parent = successor
+                        successor = successor.left
+                    curr.data = successor.data
+                    if successor_parent.left == successor:
+                        successor_parent.left = successor.right
+                    else:
+                        successor_parent.right = successor.right
+                return
+        return
+
+
 # Create an instance of the BST class
 bst = BST()
 
 # Insert elements into the BST
-bst.insert(10)
+bst.insert(8)
 bst.insert(5)
-bst.insert(15)
-bst.insert(3)
+bst.insert(16)
 bst.insert(7)
-bst.insert(12)
-bst.insert(18)
-bst.insert_recursive(20)
-bst.insert_recursive(2)
-bst.insert_recursive(14)
-
-# Test the breadthfirst_print method
-print("Breadth-First Traversal:")
+bst.insert(3)
+bst.insert(11)
+bst.insert(20)
+bst.insert(4)
+bst.insert(14)
+bst.insert(6)
 bst.breadthfirst_print()
 print()
-print(bst.search(15))
-print(bst.search_recursive(15))
-bst.print()
+bst.delete(5)
+bst.delete(8)
+bst.delete(7)
+bst.delete(20)
+bst.delete(11)
+bst.delete(14)
+bst.delete(6)
+bst.delete(3)
+bst.delete(16)
+bst.delete(4)
+print("+++++++")
+bst.breadthfirst_print()
