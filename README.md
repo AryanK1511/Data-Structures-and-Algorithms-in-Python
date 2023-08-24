@@ -11,21 +11,11 @@ Throughout my learning journey, I've drawn knowledge and insights from a variety
 - [MIT OpenCourseWare](https://ocw.mit.edu): The MIT courses have offered a more formal and academic perspective on the topic. They have also served to enhance my mathematical knowledge.
 - Books and Online Tutorials: Additional reading materials and tutorials have also contributed to my learning.
 
-## Repository Structure
-
-Here's a quick overview of the structure of this repository:
-
-- **Algorithms**: This directory contains implementations and explanations of various algorithms. It's a great place to explore different strategies for solving problems effectively.
-- **Data_Structures**: In this section, you'll find code examples and notes related to different data structures, such as arrays, linked lists, trees, stacks, and queues.
-- **Mathematical_Concepts**: Understanding the underlying mathematical concepts is crucial for optimizing algorithms. This section delves into some of these concepts that are directly applicable to this field.
-- **Notes**: My personal notes from different resources are stored here. These are concise summaries of important points, perfect for quick reference.
-- **Projects**: Putting knowledge into practice is essential. This section showcases projects where I've applied the data structures and algorithms I've learned.
-
-## How to Use This Repository
-
-- **Exploration**: Feel free to explore the various directories based on your interests. If you're curious about algorithms, head to the 'Algorithms' section. For a deep dive into specific data structures, the 'Data_Structures' folder is the place to be.
-- **Learning**: Use the 'Notes' section as a quick reference. It's designed to provide key takeaways and concepts from the resources I've studied.
-- **Practice**: The 'Projects' folder is where theory meets practice. Check out how I've implemented algorithms and data structures in real-world scenarios.
+## Usage Directions
+- Feel free to explore the directories based on your interests.
+- Each directory contains related notes and resources.
+- The 'Codecademy_Projects' directory showcases projects completed as part of the Codecademy course.
+- You can refer to the 'LeetCode_Problems' directory for your LeetCode problem solutions.
 
 ## Contributions and Feedback
 
