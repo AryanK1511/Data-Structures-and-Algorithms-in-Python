@@ -1,6 +1,6 @@
 # Learning Data Structures and Algorithms in Python
 
-Welcome to my repository dedicated to learning Data Structures and Algorithms in Python! Here, you'll find a collection of files and notes that I've created while exploring various topics in this domain, along with some important mathematical concepts. This repository serves as both a learning resource for myself and a reference for anyone else interested in these subjects.
+This repository is dedicated to learning Data Structures and Algorithms in Python! Here, you'll find a collection of files and notes that I've created while exploring various topics in this domain, along with some important mathematical concepts. This repository serves as both a learning resource for myself and a reference for anyone else interested in these subjects.
 
 ## Resources Utilized
 
