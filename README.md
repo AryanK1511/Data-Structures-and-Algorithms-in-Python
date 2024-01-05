@@ -9,4 +9,5 @@ This repository is dedicated to learning Data Structures and Algorithms in Pytho
 
 ## Resources
 |Name|Link|
+|---|---|
 |**Codecademy**|[Learn Data Structures and Algorithms in Python](https://www.codecademy.com/enrolled/courses/learn-data-structures-and-algorithms-with-python)|
