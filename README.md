@@ -11,3 +11,4 @@ This repository is dedicated to learning Data Structures and Algorithms in Pytho
 |Name|Link|
 |---|---|
 |**Codecademy**|[Learn Data Structures and Algorithms in Python](https://www.codecademy.com/enrolled/courses/learn-data-structures-and-algorithms-with-python)|
+|**Programming with Mosh**|[Python Tutorial - Python Full Course for Beginners](https://www.youtube.com/watch?v=_uQrJ0TkZlc)|
