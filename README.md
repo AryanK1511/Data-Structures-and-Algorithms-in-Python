@@ -5,7 +5,7 @@ This repository is dedicated to learning Data Structures and Algorithms in Pytho
 ## Table of Contents
 |Sr. No.|Topic|Link|
 |---|---|---|
-|1|**Python Refresher**|Link|
+|1|**Python Refresher**|https://github.com/AryanK1511/Data-Structures-and-Algorithms-in-Python/tree/main/000-Python-Refresher|
 
 ## Resources
 |Name|Link|
