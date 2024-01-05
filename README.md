@@ -4,6 +4,6 @@ This repository is dedicated to learning Data Structures and Algorithms in Pytho
 
 ## Resources
 
-- [Codecademy](https://www.codecademy.com/enrolled/courses/learn-data-structures-and-algorithms-with-python): 
+- [Codecademy](https://www.codecademy.com/enrolled/courses/learn-data-structures-and-algorithms-with-python)
 - [Geeks for Geeks](https://www.geeksforgeeks.org)
 - [MIT OpenCourseWare](https://ocw.mit.edu)
